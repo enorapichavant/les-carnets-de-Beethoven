@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+
+
+
+<html lang="fr">
+
+  <head>
+
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta charset="utf-8"/>
+    <title>Beethoven</title>
+    <meta name="description" content="Beethoven" />
+   	<meta name="keywords" content="design, design graphique, Insula, Beethoven" />
+    <meta name="author" content="Enora Pichavant" />
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+	<link rel="manifest" href="images/site.webmanifest">
+
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="style/style_phone.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+
+
+<script type="text/javascript">
+	$(function(){
+	$(window).scroll(
+	function () {//Au scroll dans la fenetre on déclenche la fonction
+	if ($(this).scrollTop() > 187) { //si on a défini de plus de 187 px du haut vers le bas
+	$('#gauche').addClass(".fixgauche"); //on ajoute la classe "fixgauche" à <div id="gauche">
+	} else {
+	$('#gauche').removeClass(".fixgauche");//sinon on retire la classe "fixgauche" à <div id="gauche">
+						}
+					}
+				);			 
+			});
+		</script>
+
+
+
+  </head>
+
+  <body class="Black">
+
+<div id="multiBoxes">
+	<div class="colorPickBox" onClick="setColor();" style="background-color:red;"></div>
+</div>
+
+
+
+  <div class="page">
+  	<ul class="Navigation">
+  	
+	  <li><a href="index.html#note-1">1</a></li>
+	  <li><a href="index.html#note-2">2</a></li>
+	  <li><a href="index.html#note-3">3</a></li>
+	  <li><a href="index.html#note-4">4</a></li>
+	  <li class="revelation"><p class="indexIntro">i</p></li>
+	</ul>
+
+
+	<script type="text/javascript">
+	$(".indexIntro").click(function(){
+	          $(".IntroDebut").show();
+	        });
+
+	</script>
+
+
+  	<div id="Conversation">
+
+
+
+  		<div class="IntroDebut">
+  		
+	  			<div class="croixintro croix-noir">
+		  		<svg class="croixintro" id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 197.46 197.46"><defs><style>.cls-1{fill:#1d1d1b;}</style></defs><title>croix-site</title><polygon class="cls-1" points="193.23 25.45 172.57 4.79 99.58 77.78 26.59 4.79 5.92 25.45 78.92 98.44 5.92 171.44 26.59 192.1 99.58 119.11 172.57 192.1 193.23 171.44 120.24 98.44 193.23 25.45"/></svg>
+		  	</div>
+
+  		<div class="Titre">
+	  		<h1 class="titreText">Bienvenue !</h1>
+	  	</div>
+	  	<div class="espace"></div>
+
+	  	<div class="TextIntro">
+	  	<p>Ici vous pouvez découvrir qui sont les mystérieux interlocuteurs de votre fragment, ainsi que les musiques qui s’y cachent !</p>
+	  	</div>
+	  	<div class="espace"></div>
+
+	  	<div class="TextIntro TextIntrofin"><p>Si vous apercevez l’étoile, cela signifie qu’une révélation est à découvrir en cliquant dessus.</p>
+	  	</div>
+
+	  	<div class="ombre">
+	  		
+	  	</div>
+</div>
+
+
+<script type="text/javascript">
+	$(".croixintro").click(function(){
+	          $(".IntroDebut").hide();
+	        });
+	
+</script>
+
+
+
+
+
+  		<div class="block-Titre" id="note-1">
+	  		<h1 class="Titre titreText">Les mélomanes</h1>
+	  		<h2 class="Titre titreText">n°1</h2>
+	  	</div>
+
+
+
+
+		<a href="revelation.html" class="bouton-revelation fixgauche"><svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 679 1237"><title>Plan de travail 2</title><path d="M643,458c-36.45-83.6-99.79-153.9-117-173-50.49-56-75.53-66.69-104-113C384.06,110.29,377,45.4,377,0H347l-.93,959.1c-48.38-35.42-129.39-40.23-207.26-6.9C35.6,996.37-23,1090.79,8,1163.09s139.69,95.09,242.89,50.92c82-35.08,135.78-101.86,139-164.07l.19.06V345c31.74,7.28,124.47,32.87,198,120,90.53,107.27,86.57,230.33,85,258C692.42,591.73,662,501.6,643,458Z"/></svg></a>
+
+
+
+
+		<div class="texte">
+			<p>Retranscription des carnets de conversation de Beethoven et ses interlocuteurs.</p>
+		</div>
+
+
+
+	  	<div class="date" id="1">
+	  		<p class="dateText dategauche">MARDI</p>
+	  		<p class="dateText dataDroit">12:30</p>
+	  	</div>
+
+
+	  	<div class="convAutre stieler">
+	  		<div class="caseContact">
+	  			<p class="nom">Stieler</p>
+		  		<div class="imageContact">
+		  			<img src="images/stieler.gif">
+		  		</div>
+		  	</div>
+
+	  		<div class="messageAutre">
+	  			<p>En quel ton est votre messe ? Je voudrais simplement écrire sur la feuille Messe en…</p>
+	  		</div>
+	  	</div>
+
+
+
+	  	<div class="popUpNom nomcache0">
+	  		<div class="block-in-popup">
+	  			<div class="croix1 croix-noir">
+		  		<svg class="croix1 croix-noir" id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 197.46 197.46"><defs><style>.cls-1{fill:#1d1d1b;}</style></defs><title>croix-site</title><polygon class="cls-1" points="193.23 25.45 172.57 4.79 99.58 77.78 26.59 4.79 5.92 25.45 78.92 98.44 5.92 171.44 26.59 192.1 99.58 119.11 172.57 192.1 193.23 171.44 120.24 98.44 193.23 25.45"/></svg>
+		  	</div>
+	  			<div class="NomCase">
+	  				<h1>Stieler</h1>
+		  		<div class="imageContact">
+		  			<img src="images/stieler.png">
+		  		</div>
+		  	</div>
+		  		<p>Né en 1781, Stieler est un artiste peintre Allemand. Il a réalisé le portrait le plus connu de Beethoven. </p>
+		  	</div>
+		</div>
+
+
+	  	<div class="convBeethoven">
+	  		<div class="messageBee cache" >
+	  			<p >Ré. Missa solemnis in D</p>
+			  	<div class="étoile étoile1">
+					<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 234.73 242.85"><defs><style>.cls-1{fill:white;}</style></defs><title>Plan de travail 1</title><path class="cls-1" d="M209.76,149.91l-76-23.71a12.51,12.51,0,0,0,1-4.8,12.72,12.72,0,0,0-.6-3.82c6.21-2.12,66.6-22.69,80.31-27,17.67-5.53,22.89-17.6,12.25-30.83-12.11-15.07-32.39,3.77-34.16,5.14C181,73.8,132.26,110.73,130.6,112a15.82,15.82,0,0,0-7.4-4c1.57-10.13,9.21-59.64,10-68,1.47-14.69,5.19-36.39-16.9-36.38-21.1,0-18.08,23.09-18.08,23.09l15.2,81.84a15.89,15.89,0,0,0-5,3l-73.86-54S14.76,42.39,5.11,61.18c-11.24,21.87,14.78,28.6,14.78,28.6l85.46,25.82a12.75,12.75,0,0,0-1.42,5.8,12.25,12.25,0,0,0,.4,3.1c-10,3-62.29,18.52-77.68,22.09C9.11,150.66-2,160.31,3.9,177.58c2.95,8.64,10,10.75,16.33,10.69,6.16-.05,10.4-2.25,17-6.1,16.05-9.41,58.27-43.17,70.68-51.53a15.76,15.76,0,0,0,7.54,4.16c-2.41,9.94-11.53,54-15,74-3.54,20.54,4,30.56,18.87,30.56,18,0,14.42-27.95,14.42-27.95l-9.39-76.87a15.56,15.56,0,0,0,6.94-4.38c6.1,5,53.6,43.6,61.23,49.46,12.78,9.82,32.48,15.6,37.77-1.66C236.87,156.49,209.76,149.91,209.76,149.91Z"/></svg>
+				</div>
+	  		</div>
+
+	  		<div class="caseContact BeethovenNom">
+		  		<div class="imageContact">
+		  			<img src="images/beethoven-1.gif">
+		  		</div>
+		  		<p class="nomB">Beethoven</p>
+		  	</div>
+
+
+		  	<div class="popUpNom nomcacheBee">
+	  		<div class="block-in-popup">
+	  			<div class=" croixBee croix-noir">
+		  		<svg class=" croix-noir" id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 197.46 197.46"><defs><style>.cls-1{fill:#1d1d1b;}</style></defs><title>croix-site</title><polygon class="cls-1" points="193.23 25.45 172.57 4.79 99.58 77.78 26.59 4.79 5.92 25.45 78.92 98.44 5.92 171.44 26.59 192.1 99.58 119.11 172.57 192.1 193.23 171.44 120.24 98.44 193.23 25.45"/></svg>
+		  	</div>
+	  			<div class="NomCase">
+	  				<h1>Beethoven</h1>
+		  		<div class="imageContact">
+		  			<img src="https://images.fineartamerica.com/images-medium-large-5/portrait-of-the-composer-beethoven-english-school.jpg">
+		  		</div>
+		  	</div>
+		  		<p>Compositeur </br>et pianiste allemand classique et préromantique, né le 16/12/1770 à Bonn, meurt le 26/03/1827 à Vienne,  il garde à ce jour l'image de l'un des plus grands compositeurs de l'Histoire.</p>
+		  	</div>
+		</div>
+
+
+
+	  	</div>
+
+	  	<div class="figure">
+	  		<div class="croix2">
+		  		<svg class="croix2" id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 197.46 197.46"><defs><style>.cls-1{fill:#1d1d1b;}</style></defs><title>croix-site</title><polygon class="cls-1" points="193.23 25.45 172.57 4.79 99.58 77.78 26.59 4.79 5.92 25.45 78.92 98.44 5.92 171.44 26.59 192.1 99.58 119.11 172.57 192.1 193.23 171.44 120.24 98.44 193.23 25.45"/></svg>
+		  	</div>
+	  		
+	  		<iframe width="560" height="315" src="https://www.youtube.com/embed/r01elSujWfY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	  		<div>
+	  			<p>
+	  				Messe de 70 minutes en 5 mouvements. </br>
+	  				</br>
+
+					<b>Langue : </b>latin</br></br>
+					<b>Effectif :</b> chœur, solistes, orchestre</br></br>
+					<b>Date :</b> créée à Saint-Pétersbourg le 18 avril 1824</br></br>
+					<b>Dédicataire :</b> œuvre dédié à son élève l’archiduc Rodolphe
+	  			</p>
+	  		</div>
+	  </div>
+
+	  	
+	  	<div class="date">
+	  		<p class="dateText dategauche">JEUDI</p>
+	  		<p class="dateText dataDroit">14:50</p>
+	  	</div>
+
+
+	  	<div class="popUpNom2">
+	  			<div class="croix3 croix-noir">
+		  		<svg class="croix3 croix-noir" id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 197.46 197.46"><defs><style>.cls-1{fill:#1d1d1b;}</style></defs><title>croix-site</title><polygon class="cls-1" points="193.23 25.45 172.57 4.79 99.58 77.78 26.59 4.79 5.92 25.45 78.92 98.44 5.92 171.44 26.59 192.1 99.58 119.11 172.57 192.1 193.23 171.44 120.24 98.44 193.23 25.45"/></svg>
+		  	</div>
+		  	<h1>À propos de Beethoven</h1>
+	  			<p>La musique lui a été enseignée par son père qui est lui-même musicien. Dès 1796, à l’âge de 26 ans,  il devient progressivement sourd.</br> </br> 			
+		  		Devenant sourd en 1818, ses amis, ses proches et ses visiteurs devaient s’entretenir à  l’écrit avec lui dans des petits carnets qu’il gardait toujours avec lui. 
+				</p>
+		</div>
+
+
+	  	<div class="convAutre">
+	  		<div class="caseContact stieler2">
+	  			<p class="nom">Stieler</p>
+
+		  		<div class="imageContact">
+		  			<img src="images/stieler.gif">
+		  		</div>
+		  	</div>
+
+
+		  	<div class="popUpNom nomcache">
+	  		<div class="block-in-popup">
+	  			<div class="croix1 croixcachenom croix-noir">
+		  		<svg class="croix1 croix-noir" id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 197.46 197.46"><defs><style>.cls-1{fill:#1d1d1b;}</style></defs><title>croix-site</title><polygon class="cls-1" points="193.23 25.45 172.57 4.79 99.58 77.78 26.59 4.79 5.92 25.45 78.92 98.44 5.92 171.44 26.59 192.1 99.58 119.11 172.57 192.1 193.23 171.44 120.24 98.44 193.23 25.45"/></svg>
+		  	</div>
+	  			<div class="NomCase">
+	  				<h1>Stieler</h1>
+		  		<div class="imageContact">
+		  			<img src="images/stieler.png">
+		  		</div>
+		  	</div>
+		  		<p>Né en 1781, Stieler est un artiste peintre Allemand. Il a réalisé le portrait le plus connu de Beethoven. </p>
+		  	</div>
+		</div>
+
+
+
+	  		<div class="messageAutre">
+	  			<div class="étoile étoile2">
+					<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 234.73 242.85"><defs><style>.cls-1{fill:white;}</style></defs><title>Plan de travail 1</title><path class="cls-1" d="M209.76,149.91l-76-23.71a12.51,12.51,0,0,0,1-4.8,12.72,12.72,0,0,0-.6-3.82c6.21-2.12,66.6-22.69,80.31-27,17.67-5.53,22.89-17.6,12.25-30.83-12.11-15.07-32.39,3.77-34.16,5.14C181,73.8,132.26,110.73,130.6,112a15.82,15.82,0,0,0-7.4-4c1.57-10.13,9.21-59.64,10-68,1.47-14.69,5.19-36.39-16.9-36.38-21.1,0-18.08,23.09-18.08,23.09l15.2,81.84a15.89,15.89,0,0,0-5,3l-73.86-54S14.76,42.39,5.11,61.18c-11.24,21.87,14.78,28.6,14.78,28.6l85.46,25.82a12.75,12.75,0,0,0-1.42,5.8,12.25,12.25,0,0,0,.4,3.1c-10,3-62.29,18.52-77.68,22.09C9.11,150.66-2,160.31,3.9,177.58c2.95,8.64,10,10.75,16.33,10.69,6.16-.05,10.4-2.25,17-6.1,16.05-9.41,58.27-43.17,70.68-51.53a15.76,15.76,0,0,0,7.54,4.16c-2.41,9.94-11.53,54-15,74-3.54,20.54,4,30.56,18.87,30.56,18,0,14.42-27.95,14.42-27.95l-9.39-76.87a15.56,15.56,0,0,0,6.94-4.38c6.1,5,53.6,43.6,61.23,49.46,12.78,9.82,32.48,15.6,37.77-1.66C236.87,156.49,209.76,149.91,209.76,149.91Z"/></svg>
+				</div>
+	  			<img class="photoBee" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Beethoven.jpg/639px-Beethoven.jpg">
+	  			<p class="legend">Le tableau final</p>
+	  		</div>
+	  	</div>
+
+
+
+	  	<div class="messageInfo" >
+	  		<div class="infoTitre centre-de-notification">
+	  			<h1>Centre de notifications</h1>
+	  			<div class="croix ">
+					<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 234.73 242.85"><defs><style>.cls-1{fill:black !important;}</style></defs><title>Plan de travail 1</title><path class="cls-1" d="M209.76,149.91l-76-23.71a12.51,12.51,0,0,0,1-4.8,12.72,12.72,0,0,0-.6-3.82c6.21-2.12,66.6-22.69,80.31-27,17.67-5.53,22.89-17.6,12.25-30.83-12.11-15.07-32.39,3.77-34.16,5.14C181,73.8,132.26,110.73,130.6,112a15.82,15.82,0,0,0-7.4-4c1.57-10.13,9.21-59.64,10-68,1.47-14.69,5.19-36.39-16.9-36.38-21.1,0-18.08,23.09-18.08,23.09l15.2,81.84a15.89,15.89,0,0,0-5,3l-73.86-54S14.76,42.39,5.11,61.18c-11.24,21.87,14.78,28.6,14.78,28.6l85.46,25.82a12.75,12.75,0,0,0-1.42,5.8,12.25,12.25,0,0,0,.4,3.1c-10,3-62.29,18.52-77.68,22.09C9.11,150.66-2,160.31,3.9,177.58c2.95,8.64,10,10.75,16.33,10.69,6.16-.05,10.4-2.25,17-6.1,16.05-9.41,58.27-43.17,70.68-51.53a15.76,15.76,0,0,0,7.54,4.16c-2.41,9.94-11.53,54-15,74-3.54,20.54,4,30.56,18.87,30.56,18,0,14.42-27.95,14.42-27.95l-9.39-76.87a15.56,15.56,0,0,0,6.94-4.38c6.1,5,53.6,43.6,61.23,49.46,12.78,9.82,32.48,15.6,37.77-1.66C236.87,156.49,209.76,149.91,209.76,149.91Z"/></svg>
+				</div>
+	  		</div>
+
+	  		<div class="infoText infoTexte-1">
+	  			<p>Les carnets pouvaient être comparés à des conversations téléphoniques dont <b class="info-cache1">... ></b><b class="info-text-plus">on entendait un seul des interlocuteurs. </b></p>
+	  		</div>
+
+	  		<div class="infoText infoTexte-2">
+	  			<p>Les interventions venaient des proches de Beethoven (famille, amis, <b class="info-cache2">... ></b><b class="info-text-plus2">journalistes, dramaturge, avocat...) et des visiteurs plus occasionnels.</b></p>
+	  		</div>
+	  	</div>
+
+
+
+
+
+<div class="date">
+	  		<p class="dateText dategauche">MERCREDI</p>
+	  		<p class="dateText dataDroit">08:22</p>
+	  	</div>
+
+
+
+	  	<div class="convAutre">
+	  		<div class="caseContact Bernard">
+	  			<p class="nom">Bernard</p>
+		  		<div class="imageContact">
+		  			<img src="images/bernard.gif">
+		  		</div>
+		  	</div>
+
+
+
+		  	<div class="popUpNom nomcachebernard">
+	  		<div class="block-in-popup">
+	  			<div class=" croixBernard croix-noir">
+		  		<svg class=" croix-noir" id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 197.46 197.46"><defs><style>.cls-1{fill:#1d1d1b;}</style></defs><title>croix-site</title><polygon class="cls-1" points="193.23 25.45 172.57 4.79 99.58 77.78 26.59 4.79 5.92 25.45 78.92 98.44 5.92 171.44 26.59 192.1 99.58 119.11 172.57 192.1 193.23 171.44 120.24 98.44 193.23 25.45"/></svg>
+		  	</div>
+	  			<div class="NomCase">
+	  				<h1>Joseph Karl Bernard</h1>
+		  		<div class="imageContact imagebernard">
+		  			<img src="images/bernard.jpg">
+		  		</div>
+		  	</div>
+		  		<p>Écrivain et journaliste, Joseph Karl Bernard est né en 1780. Proche de Beethoven,</br> il lui a écrit le livret de l’Oratorio intitulé La Victoire de la Croix.</p>
+		  	</div>
+		</div>
+
+
+
+	  		<div class="messageAutre">
+	  			
+	  			<p>Hier, il a été entendu que vous donneriez un concert le saint jour de Noël ou un autre jour.
+</p>
+	  			<p>Il y aurait une symphonie, le Gloria de votre Messe, votre nouvelle sonate, jouée par vous, et un grand chœur final. 4 000 fl. vous sont garantis.</p>
+	  		</div>
+	  	</div>
+
+
+
+	  	<div class="messageInfo" >
+	  		<div class="infoTitre centre-de-notification">
+	  			<h1>Centre de notifications</h1>
+	  			<div class="croix ">
+					<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 234.73 242.85"><defs><style>.cls-1{fill:black !important;}</style></defs><title>Plan de travail 1</title><path class="cls-1" d="M209.76,149.91l-76-23.71a12.51,12.51,0,0,0,1-4.8,12.72,12.72,0,0,0-.6-3.82c6.21-2.12,66.6-22.69,80.31-27,17.67-5.53,22.89-17.6,12.25-30.83-12.11-15.07-32.39,3.77-34.16,5.14C181,73.8,132.26,110.73,130.6,112a15.82,15.82,0,0,0-7.4-4c1.57-10.13,9.21-59.64,10-68,1.47-14.69,5.19-36.39-16.9-36.38-21.1,0-18.08,23.09-18.08,23.09l15.2,81.84a15.89,15.89,0,0,0-5,3l-73.86-54S14.76,42.39,5.11,61.18c-11.24,21.87,14.78,28.6,14.78,28.6l85.46,25.82a12.75,12.75,0,0,0-1.42,5.8,12.25,12.25,0,0,0,.4,3.1c-10,3-62.29,18.52-77.68,22.09C9.11,150.66-2,160.31,3.9,177.58c2.95,8.64,10,10.75,16.33,10.69,6.16-.05,10.4-2.25,17-6.1,16.05-9.41,58.27-43.17,70.68-51.53a15.76,15.76,0,0,0,7.54,4.16c-2.41,9.94-11.53,54-15,74-3.54,20.54,4,30.56,18.87,30.56,18,0,14.42-27.95,14.42-27.95l-9.39-76.87a15.56,15.56,0,0,0,6.94-4.38c6.1,5,53.6,43.6,61.23,49.46,12.78,9.82,32.48,15.6,37.77-1.66C236.87,156.49,209.76,149.91,209.76,149.91Z"/></svg>
+				</div>
+	  		</div>
+
+
+
+
+	  		<div class="infoText infoTexte-3">
+	  			<p>Les sujets bien ques variés se portaient essentiellement<b class="info-cache3">... ></b><b class="info-text-plus3"> sur la politique et la musique.</b></p>
+	  		</div>
+	  	</div>
+
+
+</div>
+	 </div>
+	</div>
+
+<script>
+		    $( function() {
+		      $(".figure").draggable();
+		    } );
+
+
+	        $(".cache").click(function(){
+	          $(".figure").show();
+	        });     
+
+
+	        $(".croix2").click(function(){
+	          $(".figure").hide();
+	        });
+
+
+
+
+
+
+
+	        $( function() {
+		      $(".nomcache0").draggable();
+		    } );
+
+
+	        $(".stieler").click(function(){
+	          $(".nomcache0").show();
+	        });  
+			
+			$(".croix1").click(function(){
+				          $(".nomcache0").hide();
+				        });
+
+
+
+
+	        $(".stieler2").click(function(){
+	          $(".nomcache").show();
+	        });
+
+	        $(".croixcachenom").click(function(){
+	          $(".nomcache").hide();
+	        });     
+
+
+
+
+	        $(".BeethovenNom").click(function(){
+	          $(".nomcacheBee").show();
+	        });  
+			
+			$(".croixBee").click(function(){
+				          $(".nomcacheBee").hide();
+				        });
+
+
+	        
+
+
+			$( function() {
+		      $(".popUpNom2").draggable();
+		    } );
+
+
+	        $(".photoBee").click(function(){
+	          $(".popUpNom2").show();
+	        });     
+
+
+	        $(".croix3").click(function(){
+	          $(".popUpNom2").hide();
+	        });
+
+
+
+	        $(".infoTexte-1").click(function(){
+	          $(".info-text-plus").show();
+	          $(".info-cache1").hide();
+	        }); 
+
+
+	        $(".infoTexte-2").click(function(){
+	          $(".info-text-plus2").show();
+	          $(".info-cache2").hide();
+	        }); 
+
+
+	        $(".infoTexte-3").click(function(){
+	          $(".info-text-plus3").show();
+	          $(".info-cache3").hide();
+	        });     
+
+
+
+	        $(".Bernard").click(function(){
+	          $(".nomcachebernard").show();
+	        });     
+
+
+	        $(".croixBernard").click(function(){
+	          $(".nomcachebernard").hide();
+	        });
+
+	   
+    	</script>
+
+  </body>
+  </html>
